@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: './src/main.ts',
+      entry: './src/index.ts',
       name: 'JsonSchemaForm',
       fileName: (format) => `json-schema-form.${format}.js`,
     },
