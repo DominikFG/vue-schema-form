@@ -534,7 +534,7 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
+<style>
 .json-schema-form {
     font-family: sans-serif;
     max-width: 800px;
